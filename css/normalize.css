@@ -247,6 +247,12 @@ h2 {
   font-size:20px;
   margin: 0.67em 0;
 }
+h3{
+  font-size: 18px;
+}
+h4{
+  font-size: 16px;
+}
 /**
  * Address styling not present in IE 8/9.
  */
@@ -538,6 +544,7 @@ th {
 }
 p{
   margin: 5px 0px;
+  line-height: 18px;
 }
 .hidden{
   display: none;
