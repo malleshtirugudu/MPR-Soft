@@ -85,23 +85,15 @@ nav ul li a.active{
 
 /** footer styles **/
 footer{
-  background: #474747;
-  border-top:3px solid #000000;
-  text-align: center;
-  color: #fff;
-  padding: 25px 0px 0px 0px;
-  margin-top: 20px;
+  background: #f2f2f1;
+  border-top: 1px solid #e4e4e4;
 }
-footer h2{
-  background: url(../images/footer-border.jpg) left bottom repeat-x;
-  padding-bottom: 15px;
-  font-size: 26px;
-  margin-bottom: 10px;
-  font-family: 'helvetica';
-  font-weight: normal;
+.footer-top{
+  background: #f2f2f1;
 }
 .bottom-footer{
-  background: #323232;
+  background: #b74c60;
+  color: #fff;
   margin-top: 25px;
   padding:15px 0px;
   font-size: 12px;
