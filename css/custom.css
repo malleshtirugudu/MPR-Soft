@@ -112,6 +112,54 @@ nav ul li a.active{
   background: #b74d61;
   color: #fff;
 }
+nav li ul.menu-hover {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top:50px;
+    visibility: hidden;
+    z-index: 1;
+    width: 250px;
+    background: #b74d61;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.8);
+  -o-box-shadow: 0px 1px 2px rgba(0,0,0,0.8);            
+}
+nav .dropdown >a:after{
+    content:'\25bc';
+    font-size:13px;
+    position: relative;
+    top: -2px;
+}
+nav li:hover ul.menu-hover {
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+    padding-bottom: 10px;
+}
+nav li ul.menu-hover li {
+    float: none;
+    width: 100%;
+}
+nav li ul.menu-hover a{
+  padding: 15px 20px 5px 20px;
+  font-size: 13px;
+  color: #fff;
+}
+nav li ul.menu-hover a:hover{
+  color: rgba(255,255,255,0.5);
+}
 /** content section styles **/
 .content-sec{
   margin-top: 95px;
