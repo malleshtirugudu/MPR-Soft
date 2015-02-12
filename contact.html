@@ -12,6 +12,8 @@
     <link href="css/responsive-styles.css" rel="stylesheet" type="text/css">
     <!-- flexslider styles -->
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+    <!-- responsivemobilemenu -->
+    <link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,15 +23,17 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery.min.js"></script>  
     <!-- Modernizr -->
-    <script type="text/javascript" src="js/modernizr.js"></script>   
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <!-- responsivemobilemenu -->
+    <script type="text/javascript" src="js/responsivemobilemenu.js"></script>       
   </head>
   <body>
   <!-- header section -->
     <header>
       <div class="wrapper">
-          <div class="logo"><img src="images/logo.png" alt="" /></div>
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
           <nav>
-            <ul>
+            <ul class="m-menu">
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
               <li class="dropdown"><a href="aboutus.html">Services</a>
@@ -54,7 +58,7 @@
           <ul class="slides">
               <li>
                 <div class="flexslider-in">
-                    <img src="images/slider/slider-img-01.png" />
+                    <img src="images/slider/slider-img-01.png" alt="" />
                     <div class="bannerInfo">
                         <div class="inner">
                             <h1>Contact Info</h1>
@@ -86,7 +90,7 @@
             </div>
             <div class="form-group">
                 <label>Message<span class="red">*</span></label>
-                <textarea class="area-control" col="20" name="Message"></textarea>
+                <textarea class="area-control" name="Message"></textarea>
             </div>
             <div class="form-group">
                 <input class="btn send-email-btn" type="submit" name="submit" value="Send Message">
@@ -106,7 +110,7 @@
         </div>
         <div class="google-map">
             <div class="frame6"><script
-            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&amp;sensor=false">
             </script>
 
 
