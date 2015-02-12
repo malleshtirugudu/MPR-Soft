@@ -1,0 +1,114 @@
+/*
+
+Responsive Mobile Menu v1.0
+Plugin URI: responsivemobilemenu.com
+
+Author: Sergio Vitov
+Author URI: http://xmacros.com
+
+License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
+
+*/
+.m-menu {
+	display:block;
+	position:relative;
+}
+.m-menu * {
+	-webkit-tap-highlight-color:transparent !important;
+}
+.m-menu a {
+	text-decoration:none;
+}
+.m-menu .m-menu-main-list, .m-menu .m-menu-main-list li {
+	margin:0px;
+	padding:0px;
+}
+.m-menu ul {
+	display:block;
+	width:auto !important;
+	margin:0 auto !important;
+	overflow:hidden;
+	list-style:none;
+}
+.m-menu-toggled ul li{
+	float: none;
+	margin-left: 0px;
+}
+.m-menu-open{
+	float: left;
+	width: 100%;
+}
+.m-menu-toggled ul li a.active{
+	border-radius: 0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius: 0px;
+	-o-border-radius: 0px;
+}
+
+/* sublevel menu - in construction */
+.m-menu ul li ul, .m-menu ul li ul li, .m-menu ul li ul li a {
+	width:0px;
+}
+.m-menu-open ul li ul, .m-menu-open ul li ul li, .m-menu-open ul li ul li a{
+	width: 100%;
+}
+.m-menu-open .dropdown ul{
+	background: rgba(91,107,117,0.05);
+}
+.m-menu-open .dropdown ul li a{
+	font-size: 14px;
+}
+/* */
+
+
+/* GRAPHITE STYLE */
+
+.m-menu.graphite .m-menu-main-list li a {
+	display:inline-block;
+
+}
+.m-menu.graphite .m-menu-toggled {
+	width:100%;
+	min-height:36px;
+	border-radius:5px;
+}
+.m-menu.graphite .m-menu-toggled-controls {
+	width: 100%;
+}
+.m-menu.graphite .m-menu-toggled-title {
+	position:relative;
+	top:9px;
+	left:15px;
+	font-size:16px;
+	color:white;
+	text-shadow:1px 1px 1px black;
+	display: none;
+}
+.m-menu.graphite .m-menu-button {
+	display:block;
+	background-color:#b74d61;
+	padding: 15px 15px 18px 15px;
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+.m-menu.graphite .m-menu-button span {
+	display:block;
+	margin-top:4px;
+	height:2px;
+	background:white;
+	width:24px;
+}
+.m-menu.graphite .m-menu-toggled ul li a {
+	display:block;
+	width:100%;
+	text-align:center;
+	padding:10px 0px 10px 0px;
+}
+.m-menu.graphite .m-menu-toggled ul li a:active {
+	background-color:#444444;
+	border-bottom:1px solid #444444;
+	border-top:1px solid #444444;
+}
+
+
+
