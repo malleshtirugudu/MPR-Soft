@@ -8,6 +8,8 @@
     <!-- custom theme styles -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- media-queries styles -->
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css">        
     <!-- responsive theme styles -->
     <link href="css/responsive-styles.css" rel="stylesheet" type="text/css">
     <!-- flexslider styles -->
@@ -32,8 +34,8 @@
     <header>
       <div class="wrapper">
           <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
-          <nav>
-            <ul class="m-menu">
+          <nav class="m-menu">
+            <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="aboutus.html">About Us</a></li>
               <li class="dropdown"><a href="aboutus.html">Services</a>
@@ -72,7 +74,7 @@
     <!-- banner section end -->
     <div class="wrapper containerSec">  
     <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
         <h2><b>What Can MPR SOFT Help You With?</b></h2>
         <br/>
         <form>
@@ -97,7 +99,7 @@
             </div>    
 				</form>         
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 col-sm-6">
         <h2><b>Contact Info</b></h2>
         <br/>        
         <div class="address-line">
@@ -191,9 +193,6 @@
   </footer> 
   <script type="text/javascript" src="js/jquery.flexslider.js"></script>
   <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
     $(window).load(function(){
       $('.flexslider').flexslider({
         animation: 'slide',
