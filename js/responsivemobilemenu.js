@@ -11,13 +11,10 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 */
 
 function responsiveMobileMenu() {	
-		$('.m-menu').each(function() {
-			
-			
-			
+		$('.m-menu').each(function() {	
+            
 			$(this).children('ul').addClass('m-menu-main-list');	// mark main menu list
-			
-			
+            
 			var $style = $(this).attr('data-menu-style');	// get menu style
 				if ( typeof $style == 'undefined' ||  $style == false )
 					{

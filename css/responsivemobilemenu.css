@@ -23,7 +23,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	margin:0px;
 	padding:0px;
 }
-.m-menu ul {
+.m-menu-open ul {
 	display:block;
 	width:auto !important;
 	margin:0 auto !important;
@@ -49,6 +49,12 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 .m-menu ul li ul, .m-menu ul li ul li, .m-menu ul li ul li a {
 	width:0px;
 }
+.dropdown .menu-hover{
+    width: 250px;
+}
+.dropdown:hover .menu-hover li, .dropdown:hover .menu-hover li a{
+    width: 100%!important;
+}
 .m-menu-open ul li ul, .m-menu-open ul li ul li, .m-menu-open ul li ul li a{
 	width: 100%;
 }
@@ -69,11 +75,18 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 }
 .m-menu.graphite .m-menu-toggled {
 	width:100%;
-	min-height:36px;
-	border-radius:5px;
+    position: absolute;
+    right: 0px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.8);
 }
+
 .m-menu.graphite .m-menu-toggled-controls {
-	width: 100%;
+    position: absolute;
+    top: -75px;
+    right: 25px;
 }
 .m-menu.graphite .m-menu-toggled-title {
 	position:relative;

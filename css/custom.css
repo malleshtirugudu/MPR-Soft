@@ -203,12 +203,13 @@ nav li ul.menu-hover a:hover{
 /** Our services styles **/
 .our-services{
     background: #952e43;
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
     color: #fff;
     margin-top: -5px;
 }
 .our-services .in-sec{
     text-align: center;
+    margin-bottom: 30px;
 }
 .our-services .in-sec h3{
     text-transform: uppercase;

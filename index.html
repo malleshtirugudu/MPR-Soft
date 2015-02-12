@@ -8,6 +8,8 @@
     <!-- custom theme styles -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- media-queries styles -->
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css">
     <!-- responsive theme styles -->
     <link href="css/responsive-styles.css" rel="stylesheet" type="text/css">
     <!-- flexslider styles -->
@@ -25,7 +27,7 @@
     <!-- Modernizr -->
     <script type="text/javascript" src="js/modernizr.js"></script>
     <!-- responsivemobilemenu -->
-    <script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+    <script type="text/javascript" src="js/responsivemobilemenu.js"></script>     
   </head>
   <body>
   <!-- header section -->
@@ -58,7 +60,7 @@
           <ul class="slides">
               <li>
                 <div class="flexslider-in">
-                    <img src="images/slider/slider-img-01.png" alt="" />
+                    <img class="slide-img" src="images/slider/slider-img-01.png" alt="" />
                     <div class="bannerInfo">
                         <div class="inner">
                         <h1>MPR Software Technologies 
@@ -73,7 +75,7 @@ is one of the fast growing IT solutions</h1>
             </li>
             <li>
                 <div class="flexslider-in">
-                    <img src="images/slider/slider-img-02.png" alt="" />
+                    <img class="slide-img" src="images/slider/slider-img-02.png" alt="" />
                     <div class="bannerInfo">
                         <div class="inner">
                         <h1>MPR Software Technologies 
@@ -88,7 +90,7 @@ is one of the fast growing IT solutions</h1>
             </li>
             <li>
                 <div class="flexslider-in">
-                    <img src="images/slider/slider-img-03.png" alt="" />
+                    <img class="slide-img" src="images/slider/slider-img-03.png" alt="" />
                     <div class="bannerInfo">
                         <div class="inner">
                         <h1>MPR Software Technologies 
@@ -108,7 +110,7 @@ is one of the fast growing IT solutions</h1>
       <div class="our-services">
           <div class="wrapper">
               <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-sm-6">
                       <div class="in-sec">
                           <div class="img"><img src="images/hand-icon.png" alt="" /></div>
                           <h3><a href="#">Technology Consulting</a></h3>
@@ -116,7 +118,7 @@ is one of the fast growing IT solutions</h1>
                           <button class="primary-btn btn" type="button"><img src="images/but-white-arrow.png" alt="" /> More</button>
                       </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-sm-6">
                       <div class="in-sec">
                           <div class="img"><img src="images/services-icon.png" alt="" /></div>
                           <h3><a href="#">Services</a></h3>
@@ -124,7 +126,7 @@ is one of the fast growing IT solutions</h1>
                           <button class="primary-btn btn" type="button"><img src="images/but-white-arrow.png" alt="" /> More</button>
                       </div>                      
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-sm-6">
                       <div class="in-sec">
                           <div class="img"><img src="images/development-icon.png" alt="" /></div>
                           <h3><a href="#">Software Development</a></h3>
@@ -132,7 +134,7 @@ is one of the fast growing IT solutions</h1>
                           <button class="primary-btn btn" type="button"><img src="images/but-white-arrow.png" alt="" /> More</button>
                       </div>                      
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-sm-6">
                     <div class="in-sec">
                           <div class="img"><img src="images/training-icon.png" alt="" /></div>
                           <h3><a href="#">IT-Training</a></h3>
@@ -174,7 +176,7 @@ is one of the fast growing IT solutions</h1>
         <div class="wrapper">
             <h1>Why Choose Us?</h1>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="box">
                         <div class="img"><a href="#"><img src="images/client-img.png" alt="" /></a></div>
                         <h4><a href="#">Our clients</a></h4>
@@ -182,7 +184,7 @@ is one of the fast growing IT solutions</h1>
                         <div class="btn-action"><a href="#" class="btn secd-btn"><img alt="" src="images/but-red-arrow.png">More</a></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="box">
                         <div class="img"><a href="#"><img src="images/get-know-img.png" alt="" /></a></div>
                         <h4><a href="#">get to know about us</a></h4>
@@ -191,7 +193,7 @@ is one of the fast growing IT solutions</h1>
                         <div class="btn-action"><a href="#" class="btn secd-btn"><img alt="" src="images/but-red-arrow.png">More</a></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="box">
                         <div class="img"><a href="#"><img src="images/developed-img.png" alt="" /></a></div>
                         <h4><a href="#">what we developed</a></h4>
@@ -199,7 +201,7 @@ is one of the fast growing IT solutions</h1>
                         <div class="btn-action"><a href="#" class="btn secd-btn"><img alt="" src="images/but-red-arrow.png">More</a></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="box">
                         <div class="img"><a href="#"><img src="images/touch-img.png" alt="" /></a></div>
                         <h4><a href="#">get in touch with us</a></h4>
@@ -216,7 +218,7 @@ is one of the fast growing IT solutions</h1>
     <div class="footer-top">
       <div class="wrapper">  
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-8">
             <h3>Latest News</h3>
             <div class="latestNews"> 
                 <ul class="slides">
@@ -226,7 +228,7 @@ is one of the fast growing IT solutions</h1>
                 </ul>
               </div>    
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-4">
             <div class="address">  
             <h3>Contact Us</h3>
             <p>Address: 21250 Barley Hall Ter,<br/>
@@ -238,7 +240,7 @@ is one of the fast growing IT solutions</h1>
 Email: info@mprsoft.com </p>
         </div>        
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
               <h3>SEND US A MESSAGE</h3>
               <p>If you're having problems about service, then don't hesitate to ask for help on the Forums.</p>
               <button class="btn send-email-btn" type="button">Click to send us an email</button>
@@ -249,10 +251,10 @@ Email: info@mprsoft.com </p>
     <div class="bottom-footer">
       <div class="wrapper">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <p>© Copyright 2014.mprsoftinc. All Rights Reserved.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
               <ul class="social-links">
                   <li><a class="facebook" href="#"></a></li>
                   <li><a class="twitter" href="#"></a></li>
@@ -266,9 +268,6 @@ Email: info@mprsoft.com </p>
   </footer> 
   <script type="text/javascript" src="js/jquery.flexslider.js"></script>
   <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
     $(window).load(function(){
       $('.flexslider').flexslider({
         animation: 'slide',
@@ -283,5 +282,20 @@ Email: info@mprsoft.com </p>
       });
     });        
   </script>
+    <script type="text/javascript">
+        // responsive image croping for remote video page
+        var $box = $('.flexslider .flexslider-in').css('width');
+        var $img = $('.flexslider .flexslider-in .slide-img').width();
+        var $gox = (($img/2 - (parseInt($box, 10) / 2)) + 'px');
+        $('.flexslider .flexslider-in .slide-img').css('marginLeft', '-'+$gox);
+
+        //Just the same code as above, but with window.onresize
+        window.onresize = function(event){
+            var $box = $('.flexslider .flexslider-in').css('width');
+            var $img = $('.flexslider .flexslider-in .slide-img').width();
+            var $gox = (($img/2 - (parseInt($box, 10) / 2)) + 'px');
+            $('.flexslider .flexslider-in .slide-img').css('marginLeft', '-'+$gox);
+        };     
+    </script>       
   </body>
 </html>
